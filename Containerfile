@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     qpdf \
     texlive-latex-extra \
     texlive-fonts-extra \
+    texlive-fonts-recommended \
     tidy
 
 RUN echo "deb https://cloud.r-project.org/bin/linux/ubuntu noble-cran40/" > /etc/apt/sources.list.d/ubuntu.list
