@@ -8,7 +8,7 @@ FROM ubuntu:noble
 RUN apt-get update && apt-get install -y --no-install-recommends \ 
     wget \
     qpdf \
-    texlive-latex-base \
+    texlive-latex-recommended \
     texlive-fonts-extra \
     tidy
 
